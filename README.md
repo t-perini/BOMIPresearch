@@ -3,7 +3,7 @@ BOMIP algorithms and instances
 
 ## Generated Instances 
 Rand & Bent instances are generated according to the procedure published in "Boxed Line Method" (Perini et. al. 2018).
-All instances are given as .lp files where the LAST constraint is the SECOND objective function.
+**All instances are given as .lp files where the LAST constraint (lefthand side) is the SECOND objective function.
 
 Bent instances have a bent line segment with n NDPs along with associated cones.
 Procedure is given in XXX
@@ -33,7 +33,7 @@ These instances are available in the original file formats, as published by Bola
 http://hdl.handle.net/1959.13/1036183
 Note that the original format was specifically for the fomat of the BOMIPs being solved, where the parameters were listed in arrays in a .txt file.
 These files require a specific reader for commercial solvers, which we do not provide here.
-Instead, we have provided the instances converted into .lp files where the FINAL constraint (left hand side) is the SECOND objective.
+Instead, we have provided the instances converted into **.lp files where the FINAL constraint (left hand side) is the SECOND objective.
 
 The procedure for generating these instances can be summarized in the following way (see Mavrotas and Diakoulaki 1998 for more detail):
 The class # identifies the number of constraints, e.g. C320 has 320 constraints.

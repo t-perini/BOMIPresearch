@@ -1,7 +1,7 @@
 # BOMIPresearch
 BOMIP algorithms and instances
 
-##Generated Instances 
+## Generated Instances 
 Rand & Bent instances are generated according to the procedure published in "Boxed Line Method" (Perini et. al. 2018).
 All instances are given as .lp files where the LAST constraint is the SECOND objective function.
 
@@ -17,7 +17,7 @@ Filename format: Rand.NUM.V.MILP.lp where NUM is the number of NDPs dominating t
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-##Historical Instances 
+## Historical Instances 
 These instances are the first published set of standard BOMIP instances.
 Instances were published in the Triangle Splitting Algorithm paper by Boland et al. (2015),
 but the original procedure was proposed by Mavrotas and Diakoulaki (1998).

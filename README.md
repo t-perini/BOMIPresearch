@@ -1,20 +1,24 @@
 # BOMIPresearch
 BOMIP algorithms and instances
 
-"Generated Instances" (rand & bent) are generated according to the procedure published in "Boxed Line Method" (Perini et. al. 2018).
+##Generated Instances 
+Rand & Bent instances are generated according to the procedure published in "Boxed Line Method" (Perini et. al. 2018).
 All instances are given as .lp files where the LAST constraint is the SECOND objective function.
 
---Bent instances have a bent line segment with n NDPs along with associated cones.
+Bent instances have a bent line segment with n NDPs along with associated cones.
 Procedure is given in XXX
 Bent instances are generally harder for BLM than the Rand instances.
 Filename format: bentNUM.VMILP.lp where NUM is the number of NDPs dominating the bent line segment and V is the version (A-E)
 
---Rand instances are generated with a straight line segment along with n NDPs and associated cones dominating the line segment. 
+Rand instances are generated with a straight line segment along with n NDPs and associated cones dominating the line segment. 
 Procedure given in Perini et. al. 2018
 Rand instances are generally easier for BLM than the Bent instances.
 Filename format: Rand.NUM.V.MILP.lp where NUM is the number of NDPs dominating the line segment and V is the version (A-E)
+
 ---------------------------------------------------------------------------------------------------------------------------
-"Historical instances" refer to the first published set of standard BOMIP instances.
+
+##Historical Instances 
+These instances are the first published set of standard BOMIP instances.
 Instances were published in the Triangle Splitting Algorithm paper by Boland et al. (2015),
 but the original procedure was proposed by Mavrotas and Diakoulaki (1998).
 The number for the folder represents the relative size, i.e. C20 are the smallest instances and C320 are the largest.
